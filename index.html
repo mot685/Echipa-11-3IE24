@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><div style="border: 8px solid red; display: inline-block;">AZUGA WOOD</div></title>
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <style>
+        body {
+            background-image: url('C:/Users/lindn/OneDrive/Desktop/AZUGA WOOD/images/AZUGA1.jpeg');
+            background-size: cover;
+        }
+        h1 {
+            color: red;
+            font-weight: bold;
+            font-size: 60px;
+        }
+        .page-description {
+            color: white;
+            border: 2px solid green;
+            padding: 10px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .button-container {
+            width: 45%; /* Adjust as needed */
+            margin-top: 30px;
+        }
+        button#caban-button {
+            color: blue;
+        }
+        button#camere-button {
+            color: red;
+        }
+        button#facilitati-button {
+            color: yellow;
+        }
+        button#companie-button {
+            color: orange;
+        }
+        button {
+            font-weight: bold;
+            font-size: 30px;
+            background-color: transparent;
+            border: 2px solid white;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1><div style="border: 2px solid red; display: inline-block;">AZUGA WOOD</div></h1>
+        <p class="page-description"><strong>Compania AZUGA WOOD</strong> oferă turiștilor și schiorilor care vizitează stațiunea Azuga o experiență de neuitat la prețuri accesibile. Cabanele noastre situate în imediata vecinătate a pârtiilor de schi sunt ușor accesibile inclusiv vizitatorilor care nu dispun de autoturism. Oferim condiții premium pentru orice buget.</p>
+        <div class="buttons">
+            <div class="button-container">
+                <button id="cabane-button" onclick="openPage('cabane')">CABANE</button>
+                <img src="C:\Users\lindn\OneDrive\Desktop\AZUGA WOOD\images\CABANA1.jpg" alt="CABANA1" width="300" height="200">
+            </div>
+            <div class="button-container">
+                <button id="camere-button" onclick="openPage('camere')">CAMERE</button>
+                <img src="C:\Users\lindn\OneDrive\Desktop\AZUGA WOOD\images\CAMERA2.jpg" alt="CAMERA2" width="300" height="200">
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button-container">
+                <button id="facilitati-button" onclick="openPage('facilitati')">FACILITĂȚI</button>
+                <img src="C:\Users\lindn\OneDrive\Desktop\AZUGA WOOD\images\LIVING2.jpg" alt="LIVING2" width="300" height="200">
+            </div>
+            <div class="button-container">
+                <button id="companie-button" onclick="openPage('companie')">COMPANIE</button>
+                <img src="C:\Users\lindn\OneDrive\Desktop\AZUGA WOOD\images\SEDIU.jpg" alt="SEDIU" width="300" height="200">
+            </div>
+        </div>
+    </div>
+    <script>
+        function openPage(page) {
+            window.open(page + ".html", '_blank');
+        }
+    </script>
+</body>
+</html>

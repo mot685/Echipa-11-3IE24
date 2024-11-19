@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+    <main>
+        <title>AZUGA WOOD</title>
+        <description>Compania AZUGA WOOD oferă turiștilor și schiorilor care vizitează stațiunea Azuga o experiență de neuitat la prețuri accesibile. Cabanele noastre situate în imediata vecinătate a pârtiilor de schi sunt ușor accesibile inclusiv vizitatorilor care nu dispun de autoturism. Oferim condiții premium pentru orice buget.</description>
+    </main>
+    <pages>
+        <page id="cabane">
+            <title>CABANE</title>
+            <description>Cabanele noastre din lemn sunt construite din lemn de esență tare, sunt izolate termic, au termopane moderne și oferă condiții deosebite pentru orice turist dornic să ne viziteze stațiunea. Orientarea strategică a acestora oferă o vedere panoramică spre pârtiile de schi precum și o amintire memorabilă oricărui client.</description>
+            <images>
+                <image src="images/CABANA1.jpg" />
+                <image src="images/CABANA2.jpg" />
+                <image src="images/CABANA3.jpg" />
+                <image src="images/CABANA4.jpg" />
+                <image src="images/CABANA5.jpg" />
+            </images>
+        </page>
+        <page id="camere">
+            <title>CAMERE</title>
+            <description>Camerele noastre sunt curățate în mod regulat, au mobilier din lemn și oferă oaspeților noștri o priveliște superbă spre pârtiile de schi și stațiune.</description>
+            <images>
+                <image src="images/CAMERA1.jpeg" />
+                <image src="images/CAMERA2.jpg" />
+                <image src="images/CAMERA3.jpg" />
+                <image src="images/CAMERA4.jpg" />
+                <image src="images/CAMERA5.jpg" />
+            </images>
+            <prices>
+                <price> Cameră single ........... 200 lei/noapte</price>
+                <price> Cameră dublă ........... 350 lei/noapte</price>
+                <price> Cameră triplă ........... 450 lei/noapte</price>
+                <price> Mic dejun diversificat inclus la fiecare ofertă, iar pentru 2 sau mai multe zile se oferă o reducere de 30% pentru fiecare zi de cazare.</price>
+            </prices>
+        </page>
+        <page id="facilitati">
+            <title>FACILITĂȚI</title>
+            <description>Cabanele noastre premium oferă cele mai bune condiții posibile oaspeților printre care bucătărie proprie, toalete proprii și living spațios cu decorații din lemn specifice unei cabane.</description>
+            <images>
+                <image src="images/BUCATARIE1.jpeg" />
+                <image src="images/BUCATARIE2.jpg" />
+                <image src="images/LIVING1.jpg" />
+                <image src="images/LIVING2.jpg" />
+                <image src="images/LIVING3.jpg" />
+            </images>
+        </page>
+        <page id="companie">
+            <title>COMPANIE</title>
+            <description>AZUGA WOOD este o companie de turism înființată în anul 2007 la Azuga al cărei principal obiectiv este furnizare de servicii turiștilor, printre care închirierea de camere în cabane de lemn, transportul turiștilor și închiriere echipamente de schi. Ne distingem de celalte companii din domeniu prin calitatea serviciilor prestate, dar și prețurile competitive oferite.</description>
+            <details>
+                <detail>SC. AZUGA WOOD S.R.L.</detail>
+                <detail>Adresa: Str. Poienilor nr. 4, Azuga, județul Prahova</detail>
+                <detail>CUI: J40/7031/2007, RO23743772</detail>
+                <detail>Cont: RO23BTRLRONCRT00U5070702</detail>
+                <detail>Banca Transilvania</detail>
+                <detail>Telefon 0723.768.289 sau 0235.567.298</detail>
+                <detail>Email: azugawood@yahoo.com</detail>
+            </details>
+        </page>
+    </pages>
+</site>
